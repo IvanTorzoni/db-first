@@ -1,14 +1,15 @@
 USED CARS TABLE
 ____________________
 
-id
-name
-brand
-built_year
-actual_km
-fuel_type
-emission_class
-horse_power
-price
-discounted_price
-rating_offert
+id                  - UNSIGNED INT PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT
+name                - VARCHAR(255) - NOT NULL
+brand               - VARCHAR(255) - NOT NULL
+built_year          - YEAR
+actual_km           - UNSIGNED MEDIUMINT
+fuel_type           - VARCHAR(255)
+emission_class      - TINYINT
+horse_power         - VARCLASS
+price               - DECIMAL(7, 2) - NOT NULL
+discounted_price    - DECIMAL(7, 2)
+rating_offert       - UNSIGNED TINYINT
+weigth              - SMALLINT
