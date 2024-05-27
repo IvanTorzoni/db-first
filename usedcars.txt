@@ -1,0 +1,14 @@
+USED CARS TABLE
+____________________
+
+id
+name
+brand
+built_year
+actual_km
+fuel_type
+emission_class
+horse_power
+price
+discounted_price
+rating_offert
